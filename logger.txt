@@ -1,0 +1,429 @@
+
+2025-05-13 23:35:25  -------------START OF TRANSACTION-------------
+2025-05-13 23:35:25 Alice generating ECPrivKey and inserting it into file
+2025-05-13 23:35:25 Alice generating PBKDF2 Key
+2025-05-13 23:35:25 Alice generating GMC TAG Key
+2025-05-13 23:35:25 Alice inserting GMC TAG into file
+2025-05-13 23:35:25 Bob generating ECPrivKey and inserting it into file
+2025-05-13 23:35:25 Bob generating PBKDF2 Key
+2025-05-13 23:35:25 Bob generating GMC TAG Key
+2025-05-13 23:35:25 Bob inserting GMC TAG into file
+2025-05-13 23:35:25 Alice validating GMC TAG at destination
+2025-05-13 23:35:25 Alice validation PASSED : GMC TAG at destination
+2025-05-13 23:35:25 Alice extracting the SHARED SECRET in ECDH operation
+2025-05-13 23:35:25 Bob validating GMC TAG at destination
+2025-05-13 23:35:25 Bob validation PASSED : GMC TAG at destination
+2025-05-13 23:35:25 Bob extracting the SHARED SECRET in ECDH operation
+2025-05-13 23:35:25 Alice generating SIMKEY
+2025-05-13 23:35:25 Alice generating SIMKEY: PBKDF2 HMAC with SHA384
+2025-05-13 23:35:25 Alice generating SIMKEY: computing LEFT--RIGHT side of symKey
+2025-05-13 23:35:25 Bob generating SIMKEY
+2025-05-13 23:35:25 Bob generating SIMKEY: PBKDF2 HMAC with SHA384
+2025-05-13 23:35:25 Bob generating SIMKEY: computing LEFT--RIGHT side of symKey
+2025-05-13 23:35:25 Alice reding symElementsDerData using at AES_FANCY_OFB
+2025-05-13 23:35:25 Alice begin custom interations in AES_FANCY_OFB
+2025-05-13 23:35:25 Alice encrypt in AES_FANCY_OFB completed 
+2025-05-13 23:35:25 Alice computeTransaction: parsing and seting ASN1 structure data for buffer to be signed
+2025-05-13 23:35:25 Alice signing transaction ALL data
+2025-05-13 23:35:25 Alice generate RSA keys, create files, sign data with RSA privKey
+2025-05-13 23:35:25 Alice inserting Transaction Elemnts into Filed, SIGNED DATA
+2025-05-13 23:35:25 Bob reding symElementsDerData using at AES_FANCY_OFB
+2025-05-13 23:35:25 Bob begin custom interations in AES_FANCY_OFB
+2025-05-13 23:35:25 Bob encrypt in AES_FANCY_OFB completed 
+2025-05-13 23:35:25 Bob computeTransaction: parsing and seting ASN1 structure data for buffer to be signed
+2025-05-13 23:35:25 Bob signing transaction ALL data
+2025-05-13 23:35:25 Bob generate RSA keys, create files, sign data with RSA privKey
+2025-05-13 23:35:26 Bob inserting Transaction Elemnts into Filed, SIGNED DATA
+2025-05-13 23:35:26  -------------END OF TRANSACTION-------------
+2025-05-13 23:35:26  -------------START OF TRANSACTION-------------
+2025-05-13 23:35:26 Bob generating ECPrivKey and inserting it into file
+2025-05-13 23:35:26 Bob generating PBKDF2 Key
+2025-05-13 23:35:26 Bob generating GMC TAG Key
+2025-05-13 23:35:26 Bob inserting GMC TAG into file
+2025-05-13 23:35:26 Tom generating ECPrivKey and inserting it into file
+2025-05-13 23:35:26 Tom generating PBKDF2 Key
+2025-05-13 23:35:26 Tom generating GMC TAG Key
+2025-05-13 23:35:26 Tom inserting GMC TAG into file
+2025-05-13 23:35:26 Bob validating GMC TAG at destination
+2025-05-13 23:35:26 Bob validation PASSED : GMC TAG at destination
+2025-05-13 23:35:26 Bob extracting the SHARED SECRET in ECDH operation
+2025-05-13 23:35:26 Tom validating GMC TAG at destination
+2025-05-13 23:35:26 Tom validation PASSED : GMC TAG at destination
+2025-05-13 23:35:26 Tom extracting the SHARED SECRET in ECDH operation
+2025-05-13 23:35:26 Bob generating SIMKEY
+2025-05-13 23:35:26 Bob generating SIMKEY: PBKDF2 HMAC with SHA384
+2025-05-13 23:35:26 Bob generating SIMKEY: computing LEFT--RIGHT side of symKey
+2025-05-13 23:35:26 Tom generating SIMKEY
+2025-05-13 23:35:26 Tom generating SIMKEY: PBKDF2 HMAC with SHA384
+2025-05-13 23:35:26 Tom generating SIMKEY: computing LEFT--RIGHT side of symKey
+2025-05-13 23:35:26 Bob reding symElementsDerData using at AES_FANCY_OFB
+2025-05-13 23:35:26 Bob begin custom interations in AES_FANCY_OFB
+2025-05-13 23:35:26 Bob encrypt in AES_FANCY_OFB completed 
+2025-05-13 23:35:26 Bob computeTransaction: parsing and seting ASN1 structure data for buffer to be signed
+2025-05-13 23:35:26 Bob signing transaction ALL data
+2025-05-13 23:35:26 Bob generate RSA keys, create files, sign data with RSA privKey
+2025-05-13 23:35:27 Bob inserting Transaction Elemnts into Filed, SIGNED DATA
+2025-05-13 23:35:27 Tom reding symElementsDerData using at AES_FANCY_OFB
+2025-05-13 23:35:27 Tom begin custom interations in AES_FANCY_OFB
+2025-05-13 23:35:27 Tom encrypt in AES_FANCY_OFB completed 
+2025-05-13 23:35:27 Tom computeTransaction: parsing and seting ASN1 structure data for buffer to be signed
+2025-05-13 23:35:27 Tom signing transaction ALL data
+2025-05-13 23:35:27 Tom generate RSA keys, create files, sign data with RSA privKey
+2025-05-13 23:35:27 Tom inserting Transaction Elemnts into Filed, SIGNED DATA
+2025-05-13 23:35:27  -------------END OF TRANSACTION-------------
+2025-05-13 23:35:27  -------------START OF TRANSACTION-------------
+2025-05-13 23:35:27 Tom generating ECPrivKey and inserting it into file
+2025-05-13 23:35:27 Tom generating PBKDF2 Key
+2025-05-13 23:35:27 Tom generating GMC TAG Key
+2025-05-13 23:35:27 Tom inserting GMC TAG into file
+2025-05-13 23:35:27 Alice generating ECPrivKey and inserting it into file
+2025-05-13 23:35:27 Alice generating PBKDF2 Key
+2025-05-13 23:35:27 Alice generating GMC TAG Key
+2025-05-13 23:35:27 Alice inserting GMC TAG into file
+2025-05-13 23:35:27 Tom validating GMC TAG at destination
+2025-05-13 23:35:27 Tom validation PASSED : GMC TAG at destination
+2025-05-13 23:35:27 Tom extracting the SHARED SECRET in ECDH operation
+2025-05-13 23:35:27 Alice validating GMC TAG at destination
+2025-05-13 23:35:27 Alice validation PASSED : GMC TAG at destination
+2025-05-13 23:35:27 Alice extracting the SHARED SECRET in ECDH operation
+2025-05-13 23:35:27 Tom generating SIMKEY
+2025-05-13 23:35:27 Tom generating SIMKEY: PBKDF2 HMAC with SHA384
+2025-05-13 23:35:27 Tom generating SIMKEY: computing LEFT--RIGHT side of symKey
+2025-05-13 23:35:27 Alice generating SIMKEY
+2025-05-13 23:35:27 Alice generating SIMKEY: PBKDF2 HMAC with SHA384
+2025-05-13 23:35:27 Alice generating SIMKEY: computing LEFT--RIGHT side of symKey
+2025-05-13 23:35:27 Tom reding symElementsDerData using at AES_FANCY_OFB
+2025-05-13 23:35:27 Tom begin custom interations in AES_FANCY_OFB
+2025-05-13 23:35:27 Tom encrypt in AES_FANCY_OFB completed 
+2025-05-13 23:35:27 Tom computeTransaction: parsing and seting ASN1 structure data for buffer to be signed
+2025-05-13 23:35:27 Tom signing transaction ALL data
+2025-05-13 23:35:27 Tom generate RSA keys, create files, sign data with RSA privKey
+2025-05-13 23:35:28 Tom inserting Transaction Elemnts into Filed, SIGNED DATA
+2025-05-13 23:35:28 Alice reding symElementsDerData using at AES_FANCY_OFB
+2025-05-13 23:35:28 Alice begin custom interations in AES_FANCY_OFB
+2025-05-13 23:35:28 Alice encrypt in AES_FANCY_OFB completed 
+2025-05-13 23:35:28 Alice computeTransaction: parsing and seting ASN1 structure data for buffer to be signed
+2025-05-13 23:35:28 Alice signing transaction ALL data
+2025-05-13 23:35:28 Alice generate RSA keys, create files, sign data with RSA privKey
+2025-05-13 23:35:29 Alice inserting Transaction Elemnts into Filed, SIGNED DATA
+2025-05-13 23:35:29  -------------END OF TRANSACTION-------------
+2025-05-13 23:35:29  -------------START OF TRANSACTION-------------
+2025-05-13 23:35:29 Alice generating ECPrivKey and inserting it into file
+2025-05-13 23:35:29 Alice generating PBKDF2 Key
+2025-05-13 23:35:29 Alice generating GMC TAG Key
+2025-05-13 23:35:29 Alice inserting GMC TAG into file
+2025-05-13 23:35:29 Tom generating ECPrivKey and inserting it into file
+2025-05-13 23:35:29 Tom generating PBKDF2 Key
+2025-05-13 23:35:29 Tom generating GMC TAG Key
+2025-05-13 23:35:29 Tom inserting GMC TAG into file
+2025-05-13 23:35:29 Alice validating GMC TAG at destination
+2025-05-13 23:35:29 Alice validation PASSED : GMC TAG at destination
+2025-05-13 23:35:29 Alice extracting the SHARED SECRET in ECDH operation
+2025-05-13 23:35:29 Tom validating GMC TAG at destination
+2025-05-13 23:35:29 Tom validation PASSED : GMC TAG at destination
+2025-05-13 23:35:29 Tom extracting the SHARED SECRET in ECDH operation
+2025-05-13 23:35:29 Alice generating SIMKEY
+2025-05-13 23:35:29 Alice generating SIMKEY: PBKDF2 HMAC with SHA384
+2025-05-13 23:35:29 Alice generating SIMKEY: computing LEFT--RIGHT side of symKey
+2025-05-13 23:35:29 Tom generating SIMKEY
+2025-05-13 23:35:29 Tom generating SIMKEY: PBKDF2 HMAC with SHA384
+2025-05-13 23:35:29 Tom generating SIMKEY: computing LEFT--RIGHT side of symKey
+2025-05-13 23:35:29 Alice reding symElementsDerData using at AES_FANCY_OFB
+2025-05-13 23:35:29 Alice begin custom interations in AES_FANCY_OFB
+2025-05-13 23:35:29 Alice encrypt in AES_FANCY_OFB completed 
+2025-05-13 23:35:29 Alice computeTransaction: parsing and seting ASN1 structure data for buffer to be signed
+2025-05-13 23:35:29 Alice signing transaction ALL data
+2025-05-13 23:35:29 Alice generate RSA keys, create files, sign data with RSA privKey
+2025-05-13 23:35:29 Alice inserting Transaction Elemnts into Filed, SIGNED DATA
+2025-05-13 23:35:29 Tom reding symElementsDerData using at AES_FANCY_OFB
+2025-05-13 23:35:29 Tom begin custom interations in AES_FANCY_OFB
+2025-05-13 23:35:29 Tom encrypt in AES_FANCY_OFB completed 
+2025-05-13 23:35:29 Tom computeTransaction: parsing and seting ASN1 structure data for buffer to be signed
+2025-05-13 23:35:29 Tom signing transaction ALL data
+2025-05-13 23:35:29 Tom generate RSA keys, create files, sign data with RSA privKey
+2025-05-13 23:35:29 Tom inserting Transaction Elemnts into Filed, SIGNED DATA
+2025-05-13 23:35:29  -------------END OF TRANSACTION-------------
+2025-05-13 23:38:02  -------------START OF TRANSACTION-------------
+2025-05-13 23:38:02 Alice generating ECPrivKey and inserting it into file
+2025-05-13 23:38:02 Alice generating PBKDF2 Key
+2025-05-13 23:38:02 Alice generating GMC TAG Key
+2025-05-13 23:38:02 Alice inserting GMC TAG into file
+2025-05-13 23:38:02 Bob generating ECPrivKey and inserting it into file
+2025-05-13 23:38:02 Bob generating PBKDF2 Key
+2025-05-13 23:38:02 Bob generating GMC TAG Key
+2025-05-13 23:38:02 Bob inserting GMC TAG into file
+2025-05-13 23:38:02 Alice validating GMC TAG at destination
+2025-05-13 23:38:02 Alice validation PASSED : GMC TAG at destination
+2025-05-13 23:38:02 Alice extracting the SHARED SECRET in ECDH operation
+2025-05-13 23:38:02 Bob validating GMC TAG at destination
+2025-05-13 23:38:02 Bob validation PASSED : GMC TAG at destination
+2025-05-13 23:38:02 Bob extracting the SHARED SECRET in ECDH operation
+2025-05-13 23:38:02 Alice generating SIMKEY
+2025-05-13 23:38:02 Alice generating SIMKEY: PBKDF2 HMAC with SHA384
+2025-05-13 23:38:02 Alice generating SIMKEY: computing LEFT--RIGHT side of symKey
+2025-05-13 23:38:02 Bob generating SIMKEY
+2025-05-13 23:38:02 Bob generating SIMKEY: PBKDF2 HMAC with SHA384
+2025-05-13 23:38:02 Bob generating SIMKEY: computing LEFT--RIGHT side of symKey
+2025-05-13 23:38:02 Alice reding symElementsDerData using at AES_FANCY_OFB
+2025-05-13 23:38:02 Alice begin custom interations in AES_FANCY_OFB
+2025-05-13 23:38:02 Alice encrypt in AES_FANCY_OFB completed 
+2025-05-13 23:38:02 Alice computeTransaction: parsing and seting ASN1 structure data for buffer to be signed
+2025-05-13 23:38:02 Alice signing transaction ALL data
+2025-05-13 23:38:02 Alice generate RSA keys, create files, sign data with RSA privKey
+2025-05-13 23:38:02 Alice inserting Transaction Elemnts into Filed, SIGNED DATA
+2025-05-13 23:38:02 Bob reding symElementsDerData using at AES_FANCY_OFB
+2025-05-13 23:38:02 Bob begin custom interations in AES_FANCY_OFB
+2025-05-13 23:38:02 Bob encrypt in AES_FANCY_OFB completed 
+2025-05-13 23:38:02 Bob computeTransaction: parsing and seting ASN1 structure data for buffer to be signed
+2025-05-13 23:38:02 Bob signing transaction ALL data
+2025-05-13 23:38:02 Bob generate RSA keys, create files, sign data with RSA privKey
+2025-05-13 23:38:03 Bob inserting Transaction Elemnts into Filed, SIGNED DATA
+2025-05-13 23:38:03  -------------END OF TRANSACTION-------------
+2025-05-13 23:38:03  -------------START OF TRANSACTION-------------
+2025-05-13 23:38:03 Bob generating ECPrivKey and inserting it into file
+2025-05-13 23:38:03 Bob generating PBKDF2 Key
+2025-05-13 23:38:03 Bob generating GMC TAG Key
+2025-05-13 23:38:03 Bob inserting GMC TAG into file
+2025-05-13 23:38:03 Tom generating ECPrivKey and inserting it into file
+2025-05-13 23:38:03 Tom generating PBKDF2 Key
+2025-05-13 23:38:03 Tom generating GMC TAG Key
+2025-05-13 23:38:03 Tom inserting GMC TAG into file
+2025-05-13 23:38:03 Bob validating GMC TAG at destination
+2025-05-13 23:38:03 Bob validation PASSED : GMC TAG at destination
+2025-05-13 23:38:03 Bob extracting the SHARED SECRET in ECDH operation
+2025-05-13 23:38:03 Tom validating GMC TAG at destination
+2025-05-13 23:38:03 Tom validation PASSED : GMC TAG at destination
+2025-05-13 23:38:03 Tom extracting the SHARED SECRET in ECDH operation
+2025-05-13 23:38:03 Bob generating SIMKEY
+2025-05-13 23:38:03 Bob generating SIMKEY: PBKDF2 HMAC with SHA384
+2025-05-13 23:38:03 Bob generating SIMKEY: computing LEFT--RIGHT side of symKey
+2025-05-13 23:38:03 Tom generating SIMKEY
+2025-05-13 23:38:03 Tom generating SIMKEY: PBKDF2 HMAC with SHA384
+2025-05-13 23:38:03 Tom generating SIMKEY: computing LEFT--RIGHT side of symKey
+2025-05-13 23:38:03 Bob reding symElementsDerData using at AES_FANCY_OFB
+2025-05-13 23:38:03 Bob begin custom interations in AES_FANCY_OFB
+2025-05-13 23:38:03 Bob encrypt in AES_FANCY_OFB completed 
+2025-05-13 23:38:03 Bob computeTransaction: parsing and seting ASN1 structure data for buffer to be signed
+2025-05-13 23:38:03 Bob signing transaction ALL data
+2025-05-13 23:38:03 Bob generate RSA keys, create files, sign data with RSA privKey
+2025-05-13 23:38:04 Bob inserting Transaction Elemnts into Filed, SIGNED DATA
+2025-05-13 23:38:04 Tom reding symElementsDerData using at AES_FANCY_OFB
+2025-05-13 23:38:04 Tom begin custom interations in AES_FANCY_OFB
+2025-05-13 23:38:04 Tom encrypt in AES_FANCY_OFB completed 
+2025-05-13 23:38:04 Tom computeTransaction: parsing and seting ASN1 structure data for buffer to be signed
+2025-05-13 23:38:04 Tom signing transaction ALL data
+2025-05-13 23:38:04 Tom generate RSA keys, create files, sign data with RSA privKey
+2025-05-13 23:38:04 Tom inserting Transaction Elemnts into Filed, SIGNED DATA
+2025-05-13 23:38:04  -------------END OF TRANSACTION-------------
+2025-05-13 23:38:04  -------------START OF TRANSACTION-------------
+2025-05-13 23:38:04 Tom generating ECPrivKey and inserting it into file
+2025-05-13 23:38:04 Tom generating PBKDF2 Key
+2025-05-13 23:38:04 Tom generating GMC TAG Key
+2025-05-13 23:38:04 Tom inserting GMC TAG into file
+2025-05-13 23:38:04 Alice generating ECPrivKey and inserting it into file
+2025-05-13 23:38:04 Alice generating PBKDF2 Key
+2025-05-13 23:38:04 Alice generating GMC TAG Key
+2025-05-13 23:38:04 Alice inserting GMC TAG into file
+2025-05-13 23:38:04 Tom validating GMC TAG at destination
+2025-05-13 23:38:05 Alice validating GMC TAG at destination
+2025-05-13 23:38:05 Tom generating SIMKEY
+2025-05-13 23:38:05 Tom generating SIMKEY: PBKDF2 HMAC with SHA384
+2025-05-13 23:38:05 Tom generating SIMKEY: computing LEFT--RIGHT side of symKey
+2025-05-13 23:38:05 Alice generating SIMKEY
+2025-05-13 23:38:05 Alice generating SIMKEY: PBKDF2 HMAC with SHA384
+2025-05-13 23:38:05 Alice generating SIMKEY: computing LEFT--RIGHT side of symKey
+2025-05-13 23:38:05 Tom reding symElementsDerData using at AES_FANCY_OFB
+2025-05-13 23:38:05 Tom begin custom interations in AES_FANCY_OFB
+2025-05-13 23:38:05 Tom encrypt in AES_FANCY_OFB completed 
+2025-05-13 23:38:05 Tom computeTransaction: parsing and seting ASN1 structure data for buffer to be signed
+2025-05-13 23:38:05 Tom signing transaction ALL data
+2025-05-13 23:38:05 Tom generate RSA keys, create files, sign data with RSA privKey
+2025-05-13 23:38:05 Tom inserting Transaction Elemnts into Filed, SIGNED DATA
+2025-05-13 23:38:05 Alice reding symElementsDerData using at AES_FANCY_OFB
+2025-05-13 23:38:05 Alice begin custom interations in AES_FANCY_OFB
+2025-05-13 23:38:05 Alice encrypt in AES_FANCY_OFB completed 
+2025-05-13 23:38:05 Alice computeTransaction: parsing and seting ASN1 structure data for buffer to be signed
+2025-05-13 23:38:05 Alice signing transaction ALL data
+2025-05-13 23:38:05 Alice generate RSA keys, create files, sign data with RSA privKey
+2025-05-13 23:38:05 Alice inserting Transaction Elemnts into Filed, SIGNED DATA
+2025-05-13 23:38:05  -------------END OF TRANSACTION-------------
+2025-05-13 23:38:05  -------------START OF TRANSACTION-------------
+2025-05-13 23:38:05 Alice generating ECPrivKey and inserting it into file
+2025-05-13 23:38:05 Alice generating PBKDF2 Key
+2025-05-13 23:38:05 Alice generating GMC TAG Key
+2025-05-13 23:38:05 Alice inserting GMC TAG into file
+2025-05-13 23:38:05 Tom generating ECPrivKey and inserting it into file
+2025-05-13 23:38:05 Tom generating PBKDF2 Key
+2025-05-13 23:38:05 Tom generating GMC TAG Key
+2025-05-13 23:38:05 Tom inserting GMC TAG into file
+2025-05-13 23:38:05 Alice validating GMC TAG at destination
+2025-05-13 23:38:05 Alice validation PASSED : GMC TAG at destination
+2025-05-13 23:38:05 Alice extracting the SHARED SECRET in ECDH operation
+2025-05-13 23:38:05 Tom validating GMC TAG at destination
+2025-05-13 23:38:05 Tom validation PASSED : GMC TAG at destination
+2025-05-13 23:38:05 Tom extracting the SHARED SECRET in ECDH operation
+2025-05-13 23:38:05 Alice generating SIMKEY
+2025-05-13 23:38:05 Alice generating SIMKEY: PBKDF2 HMAC with SHA384
+2025-05-13 23:38:05 Alice generating SIMKEY: computing LEFT--RIGHT side of symKey
+2025-05-13 23:38:05 Tom generating SIMKEY
+2025-05-13 23:38:05 Tom generating SIMKEY: PBKDF2 HMAC with SHA384
+2025-05-13 23:38:05 Tom generating SIMKEY: computing LEFT--RIGHT side of symKey
+2025-05-13 23:38:05 Alice reding symElementsDerData using at AES_FANCY_OFB
+2025-05-13 23:38:05 Alice begin custom interations in AES_FANCY_OFB
+2025-05-13 23:38:05 Alice encrypt in AES_FANCY_OFB completed 
+2025-05-13 23:38:05 Alice computeTransaction: parsing and seting ASN1 structure data for buffer to be signed
+2025-05-13 23:38:05 Alice signing transaction ALL data
+2025-05-13 23:38:05 Alice generate RSA keys, create files, sign data with RSA privKey
+2025-05-13 23:38:06 Alice inserting Transaction Elemnts into Filed, SIGNED DATA
+2025-05-13 23:38:06 Tom reding symElementsDerData using at AES_FANCY_OFB
+2025-05-13 23:38:06 Tom begin custom interations in AES_FANCY_OFB
+2025-05-13 23:38:06 Tom encrypt in AES_FANCY_OFB completed 
+2025-05-13 23:38:06 Tom computeTransaction: parsing and seting ASN1 structure data for buffer to be signed
+2025-05-13 23:38:06 Tom signing transaction ALL data
+2025-05-13 23:38:06 Tom generate RSA keys, create files, sign data with RSA privKey
+2025-05-13 23:38:07 Tom inserting Transaction Elemnts into Filed, SIGNED DATA
+2025-05-13 23:38:07  -------------END OF TRANSACTION-------------
+2025-05-13 23:39:39  -------------START OF TRANSACTION-------------
+2025-05-13 23:39:39 Alice generating ECPrivKey and inserting it into file
+2025-05-13 23:39:39 Alice generating PBKDF2 Key
+2025-05-13 23:39:39 Alice generating GMC TAG Key
+2025-05-13 23:39:39 Alice inserting GMC TAG into file
+2025-05-13 23:39:39 Bob generating ECPrivKey and inserting it into file
+2025-05-13 23:39:39 Bob generating PBKDF2 Key
+2025-05-13 23:39:39 Bob generating GMC TAG Key
+2025-05-13 23:39:39 Bob inserting GMC TAG into file
+2025-05-13 23:39:39 Alice validating GMC TAG at destination
+2025-05-13 23:39:39 Alice validation PASSED : GMC TAG at destination
+2025-05-13 23:39:39 Alice extracting the SHARED SECRET in ECDH operation
+2025-05-13 23:39:39 Bob validating GMC TAG at destination
+2025-05-13 23:39:39 Bob validation PASSED : GMC TAG at destination
+2025-05-13 23:39:39 Bob extracting the SHARED SECRET in ECDH operation
+2025-05-13 23:39:39 Alice generating SIMKEY
+2025-05-13 23:39:39 Alice generating SIMKEY: PBKDF2 HMAC with SHA384
+2025-05-13 23:39:39 Alice generating SIMKEY: computing LEFT--RIGHT side of symKey
+2025-05-13 23:39:39 Bob generating SIMKEY
+2025-05-13 23:39:39 Bob generating SIMKEY: PBKDF2 HMAC with SHA384
+2025-05-13 23:39:39 Bob generating SIMKEY: computing LEFT--RIGHT side of symKey
+2025-05-13 23:39:39 Alice reding symElementsDerData using at AES_FANCY_OFB
+2025-05-13 23:39:39 Alice begin custom interations in AES_FANCY_OFB
+2025-05-13 23:39:39 Alice encrypt in AES_FANCY_OFB completed 
+2025-05-13 23:39:39 Alice computeTransaction: parsing and seting ASN1 structure data for buffer to be signed
+2025-05-13 23:39:39 Alice signing transaction ALL data
+2025-05-13 23:39:39 Alice generate RSA keys, create files, sign data with RSA privKey
+2025-05-13 23:39:40 Alice inserting Transaction Elemnts into Filed, SIGNED DATA
+2025-05-13 23:39:40 Bob reding symElementsDerData using at AES_FANCY_OFB
+2025-05-13 23:39:40 Bob begin custom interations in AES_FANCY_OFB
+2025-05-13 23:39:40 Bob encrypt in AES_FANCY_OFB completed 
+2025-05-13 23:39:40 Bob computeTransaction: parsing and seting ASN1 structure data for buffer to be signed
+2025-05-13 23:39:40 Bob signing transaction ALL data
+2025-05-13 23:39:40 Bob generate RSA keys, create files, sign data with RSA privKey
+2025-05-13 23:39:40 Bob inserting Transaction Elemnts into Filed, SIGNED DATA
+2025-05-13 23:39:40  -------------END OF TRANSACTION-------------
+2025-05-13 23:39:40  -------------START OF TRANSACTION-------------
+2025-05-13 23:39:40 Bob generating ECPrivKey and inserting it into file
+2025-05-13 23:39:40 Bob generating PBKDF2 Key
+2025-05-13 23:39:40 Bob generating GMC TAG Key
+2025-05-13 23:39:40 Bob inserting GMC TAG into file
+2025-05-13 23:39:40 Tom generating ECPrivKey and inserting it into file
+2025-05-13 23:39:40 Tom generating PBKDF2 Key
+2025-05-13 23:39:40 Tom generating GMC TAG Key
+2025-05-13 23:39:40 Tom inserting GMC TAG into file
+2025-05-13 23:39:40 Bob validating GMC TAG at destination
+2025-05-13 23:39:40 Bob validation PASSED : GMC TAG at destination
+2025-05-13 23:39:40 Bob extracting the SHARED SECRET in ECDH operation
+2025-05-13 23:39:40 Tom validating GMC TAG at destination
+2025-05-13 23:39:40 Tom validation PASSED : GMC TAG at destination
+2025-05-13 23:39:40 Tom extracting the SHARED SECRET in ECDH operation
+2025-05-13 23:39:40 Bob generating SIMKEY
+2025-05-13 23:39:40 Bob generating SIMKEY: PBKDF2 HMAC with SHA384
+2025-05-13 23:39:40 Bob generating SIMKEY: computing LEFT--RIGHT side of symKey
+2025-05-13 23:39:40 Tom generating SIMKEY
+2025-05-13 23:39:40 Tom generating SIMKEY: PBKDF2 HMAC with SHA384
+2025-05-13 23:39:40 Tom generating SIMKEY: computing LEFT--RIGHT side of symKey
+2025-05-13 23:39:40 Bob reding symElementsDerData using at AES_FANCY_OFB
+2025-05-13 23:39:40 Bob begin custom interations in AES_FANCY_OFB
+2025-05-13 23:39:40 Bob encrypt in AES_FANCY_OFB completed 
+2025-05-13 23:39:40 Bob computeTransaction: parsing and seting ASN1 structure data for buffer to be signed
+2025-05-13 23:39:40 Bob signing transaction ALL data
+2025-05-13 23:39:40 Bob generate RSA keys, create files, sign data with RSA privKey
+2025-05-13 23:39:42 Bob inserting Transaction Elemnts into Filed, SIGNED DATA
+2025-05-13 23:39:42 Tom reding symElementsDerData using at AES_FANCY_OFB
+2025-05-13 23:39:42 Tom begin custom interations in AES_FANCY_OFB
+2025-05-13 23:39:42 Tom encrypt in AES_FANCY_OFB completed 
+2025-05-13 23:39:42 Tom computeTransaction: parsing and seting ASN1 structure data for buffer to be signed
+2025-05-13 23:39:42 Tom signing transaction ALL data
+2025-05-13 23:39:42 Tom generate RSA keys, create files, sign data with RSA privKey
+2025-05-13 23:39:42 Tom inserting Transaction Elemnts into Filed, SIGNED DATA
+2025-05-13 23:39:42  -------------END OF TRANSACTION-------------
+2025-05-13 23:39:42  -------------START OF TRANSACTION-------------
+2025-05-13 23:39:42 Tom generating ECPrivKey and inserting it into file
+2025-05-13 23:39:42 Tom generating PBKDF2 Key
+2025-05-13 23:39:42 Tom generating GMC TAG Key
+2025-05-13 23:39:42 Tom inserting GMC TAG into file
+2025-05-13 23:39:42 Alice generating ECPrivKey and inserting it into file
+2025-05-13 23:39:42 Alice generating PBKDF2 Key
+2025-05-13 23:39:42 Alice generating GMC TAG Key
+2025-05-13 23:39:42 Alice inserting GMC TAG into file
+2025-05-13 23:39:42 Tom validating GMC TAG at destination
+2025-05-13 23:39:42 Tom validation PASSED : GMC TAG at destination
+2025-05-13 23:39:42 Tom extracting the SHARED SECRET in ECDH operation
+2025-05-13 23:39:42 Alice validating GMC TAG at destination
+2025-05-13 23:39:42 Alice validation PASSED : GMC TAG at destination
+2025-05-13 23:39:42 Alice extracting the SHARED SECRET in ECDH operation
+2025-05-13 23:39:42 Tom generating SIMKEY
+2025-05-13 23:39:42 Tom generating SIMKEY: PBKDF2 HMAC with SHA384
+2025-05-13 23:39:42 Tom generating SIMKEY: computing LEFT--RIGHT side of symKey
+2025-05-13 23:39:42 Alice generating SIMKEY
+2025-05-13 23:39:42 Alice generating SIMKEY: PBKDF2 HMAC with SHA384
+2025-05-13 23:39:42 Alice generating SIMKEY: computing LEFT--RIGHT side of symKey
+2025-05-13 23:39:42 Tom reding symElementsDerData using at AES_FANCY_OFB
+2025-05-13 23:39:42 Tom begin custom interations in AES_FANCY_OFB
+2025-05-13 23:39:42 Tom encrypt in AES_FANCY_OFB completed 
+2025-05-13 23:39:42 Tom computeTransaction: parsing and seting ASN1 structure data for buffer to be signed
+2025-05-13 23:39:42 Tom signing transaction ALL data
+2025-05-13 23:39:42 Tom generate RSA keys, create files, sign data with RSA privKey
+2025-05-13 23:39:43 Tom inserting Transaction Elemnts into Filed, SIGNED DATA
+2025-05-13 23:39:43 Alice reding symElementsDerData using at AES_FANCY_OFB
+2025-05-13 23:39:43 Alice begin custom interations in AES_FANCY_OFB
+2025-05-13 23:39:43 Alice encrypt in AES_FANCY_OFB completed 
+2025-05-13 23:39:43 Alice computeTransaction: parsing and seting ASN1 structure data for buffer to be signed
+2025-05-13 23:39:43 Alice signing transaction ALL data
+2025-05-13 23:39:43 Alice generate RSA keys, create files, sign data with RSA privKey
+2025-05-13 23:39:43 Alice inserting Transaction Elemnts into Filed, SIGNED DATA
+2025-05-13 23:39:43  -------------END OF TRANSACTION-------------
+2025-05-13 23:39:43  -------------START OF TRANSACTION-------------
+2025-05-13 23:39:43 Alice generating ECPrivKey and inserting it into file
+2025-05-13 23:39:43 Alice generating PBKDF2 Key
+2025-05-13 23:39:43 Alice generating GMC TAG Key
+2025-05-13 23:39:43 Alice inserting GMC TAG into file
+2025-05-13 23:39:43 Tom generating ECPrivKey and inserting it into file
+2025-05-13 23:39:43 Tom generating PBKDF2 Key
+2025-05-13 23:39:43 Tom generating GMC TAG Key
+2025-05-13 23:39:43 Tom inserting GMC TAG into file
+2025-05-13 23:39:43 Alice validating GMC TAG at destination
+2025-05-13 23:39:43 Alice validation PASSED : GMC TAG at destination
+2025-05-13 23:39:43 Alice extracting the SHARED SECRET in ECDH operation
+2025-05-13 23:39:43 Tom validating GMC TAG at destination
+2025-05-13 23:39:43 Tom validation PASSED : GMC TAG at destination
+2025-05-13 23:39:43 Tom extracting the SHARED SECRET in ECDH operation
+2025-05-13 23:39:43 Alice generating SIMKEY
+2025-05-13 23:39:43 Alice generating SIMKEY: PBKDF2 HMAC with SHA384
+2025-05-13 23:39:43 Alice generating SIMKEY: computing LEFT--RIGHT side of symKey
+2025-05-13 23:39:43 Tom generating SIMKEY
+2025-05-13 23:39:43 Tom generating SIMKEY: PBKDF2 HMAC with SHA384
+2025-05-13 23:39:43 Tom generating SIMKEY: computing LEFT--RIGHT side of symKey
+2025-05-13 23:39:43 Alice reding symElementsDerData using at AES_FANCY_OFB
+2025-05-13 23:39:43 Alice begin custom interations in AES_FANCY_OFB
+2025-05-13 23:39:43 Alice encrypt in AES_FANCY_OFB completed 
+2025-05-13 23:39:43 Alice computeTransaction: parsing and seting ASN1 structure data for buffer to be signed
+2025-05-13 23:39:43 Alice signing transaction ALL data
+2025-05-13 23:39:43 Alice generate RSA keys, create files, sign data with RSA privKey
+2025-05-13 23:39:43 Alice inserting Transaction Elemnts into Filed, SIGNED DATA
+2025-05-13 23:39:43 Tom reding symElementsDerData using at AES_FANCY_OFB
+2025-05-13 23:39:43 Tom begin custom interations in AES_FANCY_OFB
+2025-05-13 23:39:43 Tom encrypt in AES_FANCY_OFB completed 
+2025-05-13 23:39:43 Tom computeTransaction: parsing and seting ASN1 structure data for buffer to be signed
+2025-05-13 23:39:43 Tom signing transaction ALL data
+2025-05-13 23:39:43 Tom generate RSA keys, create files, sign data with RSA privKey
+2025-05-13 23:39:44 Tom inserting Transaction Elemnts into Filed, SIGNED DATA
+2025-05-13 23:39:44  -------------END OF TRANSACTION-------------

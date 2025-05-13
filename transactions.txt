@@ -1,0 +1,5 @@
+3
+1:Sender:Alice Subject:SUBJECT1 2:Receiver:Bob TRANSACTION-DATA:100
+2:Sender:Bob Subject:SUBJECT2 3:Receiver:Tom TRANSACTION-DATA:200
+3:Sender:Tom Subject:SUBJECT3 1:Receiver:Alice TRANSACTION-DATA:400
+1:Sender:Alice Subject:SUBJECT4 3:Receiver:Tom TRANSACTION-DATA:560
